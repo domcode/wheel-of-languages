@@ -1,0 +1,88 @@
+body {
+  background-image: linear-gradient(to bottom, #7cceb1, #7948dc);
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 1.3em;
+}
+
+button {
+  background: #f00;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 7px;
+  font-size: 1.1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.languages {
+  width: 50%;
+  margin: 1em auto 0;
+}
+
+.languages li {
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.languages a {
+  text-decoration: none;
+}
+
+a {
+  color: #ffffff;
+}
+
+.language-detail {
+  height: 35vh;
+
+  width: 50%;
+  margin: 1em auto 0.5em;
+  clear: both;
+}
+
+.language-detail ul {
+  display: block;
+  margin: 1em auto 0;
+  width: 60%;
+}
+
+.active {
+  background: #f00;
+}
+
+.mount svg {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.random-button a {
+  background: #428bca;
+  border-radius: 7px;
+  padding: 5px 20px;
+}
