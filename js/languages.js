@@ -87,12 +87,29 @@ var LANGUAGES = [
         ]
     },
     {
-        name: "C++",
+        name: "C",
         description: "It runs everything.",
+        links: [
+            ["https://courses.cs.washington.edu/courses/cse351/14sp/sections/1/Cheatsheet-c.pdf", "Quick and Dirty Guide to C (PDF)"],
+            ["https://repl.it/languages/c", "Online REPL"]
+        ]
+    },
+    {
+        name: "C++",
+        description: "It also runs everything.",
         links: [
             ["https://courses.cs.washington.edu/courses/cse351/14sp/sections/1/Cheatsheet-c.pdf", "Quick and Dirty Guide to C (PDF)"],
             ["https://github.com/gibsjose/cpp-cheat-sheet/blob/master/C%2B%2B%20Syntax.md", "C++ Cheatsheet"],
             ["https://repl.it/languages/cpp", "Online REPL"]
+        ]
+    },
+    {
+        name: "Scala",
+        description: "A little bit of everything.",
+        links: [
+            ["https://docs.scala-lang.org/cheatsheets/", "Scala Cheatsheet"],
+            ["http://docs.scala-lang.org/tour/tour-of-scala.html", "A (Quick) Tour of Scala"],
+            ["https://scastie.scala-lang.org/", "Online REPL"]
         ]
     },
     {
